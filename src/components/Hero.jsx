@@ -7,33 +7,33 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
-            Local flooring specialist for carpets, wood and more
+            Místní podlahář pro koberce, dřevo a další
           </h1>
           <p className="mt-4 text-lg text-slate-600">
-            One skilled craftsman delivering beautiful floors with care and precision.
-            From cozy carpets to timeless hardwood and durable vinyl, get expert advice and installation.
+            Jeden zkušený řemeslník, který s péčí a precizností vytváří krásné podlahy.
+            Od útulných koberců po nadčasové dřevěné podlahy a odolný vinyl – poradím i odborně položím.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <a href="#contact" className="px-5 py-3 rounded-lg bg-amber-600 text-white hover:bg-amber-700 shadow">Request a quote</a>
-            <a href="#services" className="px-5 py-3 rounded-lg border border-slate-300 text-slate-700 hover:bg-slate-50">View services</a>
+            <a href="#contact" className="px-5 py-3 rounded-lg bg-amber-600 text-white hover:bg-amber-700 shadow">Poptejte kalkulaci</a>
+            <a href="#services" className="px-5 py-3 rounded-lg border border-slate-300 text-slate-700 hover:bg-slate-50">Zobrazit služby</a>
           </div>
           <div className="mt-6 flex items-center gap-6 text-sm text-slate-600">
             <div>
-              <p className="font-semibold text-slate-800">10+ years experience</p>
-              <p>Fully insured</p>
+              <p className="font-semibold text-slate-800">10+ let zkušeností</p>
+              <p>Plně pojištěno</p>
             </div>
             <div>
-              <p className="font-semibold text-slate-800">Free measurements</p>
-              <p>No obligation quotes</p>
+              <p className="font-semibold text-slate-800">Měření zdarma</p>
+              <p>Nezávazné cenové nabídky</p>
             </div>
           </div>
         </div>
         <div className="relative">
           <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border border-slate-200">
-            <img src="https://images.unsplash.com/photo-1731185752376-a4cf3e8556fa?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxGbG9vcmluZyUyMHdvcmt8ZW58MHwwfHx8MTc2MzQ2NTY2NHww&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80" alt="Wooden floor" className="w-full h-full object-cover" />
+            <img src="https://images.unsplash.com/photo-1731185752376-a4cf3e8556fa?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxGbG9vcmluZyUyMHdvcmt8ZW58MHwwfHx8MTc2MzQ2NTY2NHww&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80" alt="Dřevěná podlaha" className="w-full h-full object-cover" />
           </div>
           <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow p-4 border border-slate-200">
-            <p className="text-sm font-medium text-slate-700">Trusted local, one-man service</p>
+            <p className="text-sm font-medium text-slate-700">Ověřená místní, jednočlenná služba</p>
           </div>
         </div>
       </div>
